@@ -14,5 +14,6 @@
 "outDir": "./dist",
 "removeComments": true,
 "noEmitOnError": true,
-"sourceMap": true
+"sourceMap": true,
+"noImplicitAny": true (Use with caution)
 `
