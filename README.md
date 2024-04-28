@@ -17,3 +17,6 @@
 "sourceMap": true,
 "noImplicitAny": true (Use with caution)
 `
+
+### Tuple
+- Should only use for two values (key-value pair)
