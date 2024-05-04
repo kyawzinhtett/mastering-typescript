@@ -1,4 +1,4 @@
-function render (document: unknown) {
+function doSomething (document: unknown) {
     if (typeof document === 'string') {
         document.toUpperCase();
     }

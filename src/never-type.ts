@@ -10,4 +10,4 @@ function processEvents (): never {
 
 // reject('...');
 processEvents();
-console.log('Hello World!');
+// console.log('Hello World!');
