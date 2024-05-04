@@ -17,3 +17,9 @@ class Account {
         this.balance += amount;
     }
 }
+
+let account = new Account(1, 'Kyaw Zin Htet', 0);
+
+account.deposit(100);
+
+console.log(account instanceof Account);
