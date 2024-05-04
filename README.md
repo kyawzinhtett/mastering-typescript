@@ -19,6 +19,7 @@
 "noUnusedParameters": true,
 "noImplicitReturns": true,
 "noUnusedLocals": true,
+"allowUnreachableCode": false,
 `
 
 ### Tuple
