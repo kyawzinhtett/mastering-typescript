@@ -1,8 +1,8 @@
-### Initialize typescript compiler
+### Initialize TypeScript Compiler
 
 `tsc --init`
 
-### Compile all typescript files
+### Compile all TypeScript Files
 
 `tsc`
 
