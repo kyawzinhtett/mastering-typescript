@@ -19,7 +19,4 @@
 -   `"noImplicitReturns": true`,
 -   `"noUnusedLocals": true`,
 -   `"allowUnreachableCode": false`,
-
-### Tuple
-
--   Should only use for two values (key-value pair)
+-   `"noImplicitOverride": true`
