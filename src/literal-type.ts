@@ -1,6 +1,6 @@
 // Literal (exact, specific)
-type Quantity = 50 | 100;
+type Quantity = 50 | 100
 
-let quantity: Quantity = 50;
+let quantity: Quantity = 50
 
-type Metric = 'inch' | 'cm';
+type Metric = 'inch' | 'cm'

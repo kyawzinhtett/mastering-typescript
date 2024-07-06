@@ -1,8 +1,6 @@
-function greet (name: string | null | undefined) {
-    if (name)
-        console.log(name.toUpperCase());
-    else
-        console.log('Bonjour!');
+function greet(name: string | null | undefined) {
+    if (name) console.log(name.toUpperCase())
+    else console.log('Bonjour!')
 }
 
-greet(undefined);
+greet(undefined)

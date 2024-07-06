@@ -1,5 +1,4 @@
-let age: number = 24;
+let age: number = 24
 
-if (age < 30)
-    age += 10;
-console.log(age);
+if (age < 30) age += 10
+console.log(age)

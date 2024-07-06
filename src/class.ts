@@ -1,40 +1,35 @@
 class Account {
-    nickname?: string;
+    nickname?: string
 
-    constructor (
+    constructor(
         public readonly id: number,
         public owner: string,
-        private _balance: number) {
+        private _balance: number,
+    ) {}
+
+    deposit(amount: number) {
+        if (amount <= 0) throw new Error('Invalid Amount')
+
+        this._balance += amount
     }
 
-    deposit (amount: number) {
-        if (amount <= 0)
-            throw new Error('Invalid Amount');
-
-        this._balance += amount;
+    get balance(): number {
+        return this._balance
     }
 
-    get balance (): number {
-        return this._balance;
-    }
+    set balance(value: number) {
+        if (value < 0) throw new Error('Invalid Value')
 
-    set balance (value: number) {
-        if (value < 0 )
-            throw new Error('Invalid Value');
-
-        this._balance = value;
+        this._balance = value
     }
 }
 
-let account = new Account(1, 'Kyaw Zin Htet', 0);
+let account = new Account(1, 'Kyaw Zin Htet', 0)
 
-account.deposit(100);
+account.deposit(100)
 
-console.log(account instanceof Account);
+console.log(account instanceof Account)
 
-console.log(account.balance);
+console.log(account.balance)
 
-account.balance = 1;
-
-
- 
+account.balance = 1

@@ -1,13 +1,13 @@
-function reject (message: string): never {
-    throw new Error(message);
+function reject(message: string): never {
+    throw new Error(message)
 }
 
-function processEvents (): never {
+function processEvents(): never {
     while (true) {
         // Process events
     }
 }
 
 // reject('...');
-processEvents();
+processEvents()
 // console.log('Hello World!');

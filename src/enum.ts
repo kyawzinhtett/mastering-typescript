@@ -2,7 +2,11 @@
 // const medium = 2;
 // const large = 3;
 
-const enum Size { Small = 1, Medium, Large};
+const enum Size {
+    Small = 1,
+    Medium,
+    Large,
+}
 
-let mySize: Size = Size.Medium;
-console.log(mySize);
+let mySize: Size = Size.Medium
+console.log(mySize)

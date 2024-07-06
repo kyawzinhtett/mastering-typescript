@@ -3,9 +3,9 @@ class SeatAssignment {
     // Mosh, John, ...
 
     // Index Signature
-    [seatNumber: string]: string;
+    [seatNumber: string]: string
 }
 
-let seats = new SeatAssignment();
-seats.A1 = 'Mosh';
-seats['A2'] = 'John';
+let seats = new SeatAssignment()
+seats.A1 = 'Mosh'
+seats['A2'] = 'John'
